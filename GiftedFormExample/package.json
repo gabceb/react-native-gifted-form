@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh"
+    "start": "node_modules/react-native/packager/packager.sh",
+    "postinstall": "echo '***** YOU ARE USING A FORK OF GiftedFormExample. PLEASE SWITCH TO THE NPM VERSION ONCE https://github.com/FaridSafi/react-native-gifted-form/pull/51 IS MERGED *****'"
   },
   "dependencies": {
     "@exponent/react-native-navigator": "^0.4.1",
